@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
@@ -10,10 +10,18 @@ module.exports = {
         new webpack.DefinePlugin({
             "BACKEND_URL": process.env.BACKEND_URL,
         }),
-        new ExtractTextPlugin('tailwind.css')
+        new ExtractTextPlugin('tailwind.css'),
+        new HtmlWebpackPlugin({
+            title: 'Lovaiible',
+            template: './public/index.html',
+        })
     ],
     module: {
         rules: [
+            {
+                test: /\.html$/i,
+                loader: 'html-loader',
+            },
             {
                 test: /\.css$/,
                 exclude: /node_modules/,

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Min Yoongi",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "image": "https://i.pinimg.com/originals/ce/d5/4f/ced54f0285c40237bc5c414466435c0b.jpg",
+        "tags": [
+            "yoongles",
+            "syub"
+        ]
+    },
+    {
+        "title": "Min Suga",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "image": "https://pm1.narvii.com/6863/7a2bbe4040590f9c9e9d9c349a1c8cec21e89c32r1-1620-1080v2_hq.jpg",
+        "tags": [
+            "minpd",
+            "genius"
+        ]
+    },
+    {
+        "title": "Agust D",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "image": "https://i.pinimg.com/originals/ae/58/f6/ae58f61cd3e13bca08802f09d9fc5f68.jpg",
+        "tags": [
+            "dtown",
+            "d2"
+        ]
+    },
+    {
+        "title": "Min Yoonji",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "image": "https://i.pinimg.com/564x/2d/ff/75/2dff75ac4bf9a80f6f1af49a2f31ec43.jpg",
+        "tags": [
+            "gun",
+            "bag"
+        ]
+    }
+]
