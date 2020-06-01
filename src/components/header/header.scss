@@ -2,7 +2,12 @@ nav {
   li {
     text-transform: uppercase;
 
-    &:hover a, .router-link-active {
+    .router-link-active {
+      cursor: crosshair;
+    }
+
+    &:hover a,
+    .router-link-active {
       border-bottom: #ffffff 3px solid;
       transition: ease-in 150ms;
     }

@@ -1,4 +1,6 @@
-# vue
+# lovaiible collection
+
+![Screenshot](doc/lovaiible-collection.png "Screenshot")
 
 ## Project setup
 ```

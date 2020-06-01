@@ -13,7 +13,7 @@ module.exports = {
         new ExtractTextPlugin('tailwind.css'),
         new HtmlWebpackPlugin({
             title: 'Lovaiible',
-            template: './public/index.html',
+            filename: 'index.html',
         })
     ],
     module: {
