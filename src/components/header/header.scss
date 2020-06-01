@@ -2,7 +2,7 @@ nav {
   li {
     text-transform: uppercase;
 
-    &:hover a, .active {
+    &:hover a, .router-link-active {
       border-bottom: #ffffff 3px solid;
       transition: ease-in 150ms;
     }
