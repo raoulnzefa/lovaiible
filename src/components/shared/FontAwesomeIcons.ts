@@ -1,7 +1,9 @@
-import {faSearch, faShoppingBag, faUser} from '@fortawesome/free-solid-svg-icons'
+import {faChevronLeft, faChevronRight, faSearch, faShoppingBag, faUser} from '@fortawesome/free-solid-svg-icons'
 
 export const fontAwesomeIcons = [
     faUser,
     faSearch,
-    faShoppingBag
+    faShoppingBag,
+    faChevronRight,
+    faChevronLeft
 ]
