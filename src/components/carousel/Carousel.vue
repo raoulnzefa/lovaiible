@@ -1,5 +1,5 @@
 <template>
-    <div class="carousel relative bg-gray-100 w-1/2 mt-12">
+    <div class="carousel relative bg-gray-100 lg:w-1/2 xl:w-1/2 w-full mt-12">
         <div class="carousel-inner relative overflow-hidden">
             <!--Slide 1-->
             <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">

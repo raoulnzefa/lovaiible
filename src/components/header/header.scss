@@ -1,0 +1,11 @@
+nav {
+  li {
+    text-transform: uppercase;
+
+    &:hover a, .active {
+      border-bottom: #ffffff 3px solid;
+      transition: ease-in 150ms;
+    }
+  }
+
+}
