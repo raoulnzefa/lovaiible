@@ -1,3 +1,5 @@
+export {};
+
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -8,13 +10,10 @@ module.exports = {
     entry: ['babel-polyfill', './src/main.js', ],
     plugins: [
         new webpack.DefinePlugin({
-            "BACKEND_URL": process.env.BACKEND_URL,
+            'BACKEND_URL': process.env.BACKEND_URL,
         }),
         new ExtractTextPlugin('tailwind.css'),
-        new HtmlWebpackPlugin({
-            title: 'Lovaiible',
-            filename: 'index.html',
-        })
+        new HtmlWebpackPlugin()
     ],
     module: {
         rules: [
